@@ -67,7 +67,4 @@ type (
 		ProductID string `validate:"required"`
 		AccountID string `validate:"required"`
 	}
-
-	Meki struct {
-	}
 )
