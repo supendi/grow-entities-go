@@ -1,5 +1,9 @@
+package account
+
+import "time"
+
 //Account represent account entity model
-Account struct {
+type Account struct {
 	ID        string     `json:"id"`
 	Name      string     `json:"name"`
 	Email     string     `json:"email"`
