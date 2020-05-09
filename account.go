@@ -3,7 +3,6 @@ package entities
 import "time"
 
 type (
-
 	//Account represent account entity model
 	Account struct {
 		ID        string     `json:"id"`
